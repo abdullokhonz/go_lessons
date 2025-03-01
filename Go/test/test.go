@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
+var name string = "Abdullokhon"
+
 func main() {
-	test()
+	test(name)
 }
 
-func test() {
-    fmt.Println("Hello world!")
+func test(name string) {
+	fmt.Println("Hello " + name + "!")
 }
