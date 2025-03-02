@@ -2,12 +2,13 @@ package main
 
 import "fmt"
 
-var name string = "Abdullokhon"
+const name string = "Abdullokhon"
+var age int = 16
 
 func main() {
-	test(name)
+	test(name, age)
 }
 
-func test(name string) {
-	fmt.Println("Hello " + name + "!")
+func test(name string, age int) {
+	fmt.Println(fmt.Sprintf("Hello %s(%d)!", name, age))
 }
