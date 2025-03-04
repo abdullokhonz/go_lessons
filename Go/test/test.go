@@ -1,5 +1,4 @@
 package main
-
 import "fmt"
 
 const name string = "Abdullokhon"
@@ -12,3 +11,10 @@ func main() {
 func test(name string, age int) {
 	fmt.Println(fmt.Sprintf("Hello %s(%d)!", name, age))
 }
+
+/*
+	! werwer
+	? qweqes
+	* qwenfd
+	TODO qwe
+*/
